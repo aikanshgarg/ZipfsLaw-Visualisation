@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- chrome address bar color -->
+    <meta name="theme-color" content="#F44336" />
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Zipf's Law Visualisation | Vanilla JavaScript</title>
+</head>
+<body>
+	<div class="container">
+		<div class="user-input">
+			<textarea id="text-input" class="form-control" placeholder="Type anything or paste a large amount of text to see the unsolved mystery of Zipf's law..."></textarea>
+			<button type="button" id="visualize-btn" class="btn" onclick="init()">Visualize</button>
+		</div>
+		
+	</div><canvas id="myChart"></canvas>
+	
+<!-- LIVERELOAD JS (for development only) -->
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
